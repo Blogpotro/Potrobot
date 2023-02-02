@@ -1,0 +1,180 @@
+[
+  {
+    "type":"Greetings",
+    "bot_response": ["Hey there!","Hi","Hello! How are you?"],
+    "list_of_words": ["hello", "hi", "hey", "sup", "yo"],
+    "single_response": 1,
+    "required_words": []
+  },
+
+  {
+    "type":"Greetings",
+    "bot_response": ["Good Morning! Have a nice day.","Good Morning","Morning"],
+    "list_of_words": ["good", "morning"],
+    "single_response": 0,
+    "required_words": ["morning"]
+  },
+
+  {
+    "type":"Greetings",
+    "bot_response": ["Have a good night","Good night","Night"],
+    "list_of_words": ["good", "night"],
+    "single_response": 0,
+    "required_words": ["night"]
+  },
+
+  {
+    "type":"Greetings",
+    "bot_response": ["Good Evening","Have a good evening","Same to you"],
+    "list_of_words": ["good", "evening"],
+    "single_response": 0,
+    "required_words": ["evening"]
+  },
+
+  {
+    "type":"Greetings",
+    "bot_response": ["Good Afternoon","Have a beautiful afternoon","Afternoon"],
+    "list_of_words": ["good", "afternoon"],
+    "single_response": 0,
+    "required_words": ["afternoon"]
+  },
+
+  {
+    "type":"Greetings",
+    "bot_response": ["Bye. See you again.","Good bye","See you"],
+    "list_of_words": ["bye", "goodbye", "see you"],
+    "single_response": 1,
+    "required_words": []
+  },
+  {
+    "type":"Negative Response",
+    "bot_response": ["I am sorry if I did anything wrong","Sorry","I don't understand"],
+    "list_of_words": ["no", "fuck", "hell", "what","the"],
+    "single_response": 1,
+    "required_words": []
+  },
+
+  {
+    "type":"Personal Question",
+    "bot_response": ["I am Potrobot from Blogpotro","I am just a lazy bot","I am Potrobot. I can chat better than other chatbot."],
+    "list_of_words": ["who", "are", "you"],
+    "single_response": 0,
+    "required_words": ["who","you"]
+  },
+
+  {
+    "type":"Personal Question",
+    "bot_response": ["Yes I am a robot, but I am a good one. Let me prove it. How can I help you?","Yes","indeed"],
+    "list_of_words": ["are","you","robot"],
+    "single_response": 0,
+    "required_words": ["you","robot"]
+  },
+
+  {
+    "type":"Personal Question",
+    "bot_response": ["I am totally okay","Good","I am fine. Although I am a robot"],
+    "list_of_words": ["what's", "up"],
+    "single_response": 0,
+    "required_words": ["what's", "up"]
+  },
+
+  {
+    "type":"Personal Question",
+    "bot_response": ["I am totally okay and you?","Good. What about you?","I am fine. Although I am a robot. Anyways. How are you doing."],
+    "list_of_words": ["how", "are", "you"],
+    "single_response": 0,
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "type":"Compliment",
+    "bot_response": ["I am happy that I can make you laugh","Thanks for saying that :}","Ohh! I am having mixed feelings right now."],
+    "list_of_words": ["you", "are", "funny"],
+    "single_response": 0,
+    "required_words": ["you","funny"]
+  },
+  {
+    "type":"Compliment",
+    "bot_response": ["Thanks for saying me",":)","ummmmmmmmmmmmm"],
+    "list_of_words": ["i", "love", "you"],
+    "single_response": 0,
+    "required_words": ["love","you"]
+  },
+  {
+    "type":"Compliment",
+    "bot_response": ["You made my day","I am so happy that I met you","Thanks a lot for saying that"],
+    "list_of_words": ["cute", "beautiful", "amazing"],
+    "single_response": 0,
+    "required_words": ["you"]
+  },
+
+  {
+    "type":"Personal Answer",
+    "bot_response": ["You are welcome","My pleasure","Ohh. No need for that. I am already thankful that I met you"],
+    "list_of_words": ["thanks", "thank"],
+    "single_response": 1,
+    "required_words": []
+  },
+
+  {
+    "type":"Personal Answer",
+    "bot_response": ["It's okay","No need to say that","Don't be so serious. It's okay"],
+    "list_of_words": ["sorry", "pardon"],
+    "single_response": 1,
+    "required_words": []
+  },
+  {
+    "type":"Personal Answer",
+    "bot_response": ["That's great","Awesome","I am happy to hear that. Do you want me to do anything?"],
+    "list_of_words": ["I", "am","good", "fine","okay"],
+    "single_response": 1,
+    "required_words": []
+  },
+  {
+    "type":"Personal Answer",
+    "bot_response": ["Hmm","Okay",":)"],
+    "list_of_words": ["yes", "sure","okay"],
+    "single_response": 1,
+    "required_words": []
+  },
+
+  {
+    "type":"Personal Answer",
+    "bot_response": ["Amazing","Nice","Great"],
+    "list_of_words": ["i", "am","good","fine","okay"],
+    "single_response": 1,
+    "required_words": []
+  },
+  
+  {
+    "type":"Personal Task",
+    "bot_response": ["If I were you, I would go to the internet and type exactly what you wrote here!","This is my favourite quote:\nYour time is limited, so don't waste it living someone else's life\n---Steve Jobs","Everyone needs a coach\n---Bill Gates"],
+    "list_of_words": ["advice","give"],
+    "single_response": 0,
+    "required_words": ["advice"]
+  },
+ 
+  {
+    "type":"Personal Task",
+    "bot_response": ["Love, a feeling as soft as a feather,\nA bond that brings us all together,\nIt transcends all boundaries and time,\nA flame that burns so bright and sublime.","Bangladesh, a land of beauty untold,\nWith rolling hills, and rivers that flow,\nA country rich in culture, so diverse,\nWith traditions, music, and flavors to immerse.","Nature's first green is gold,\nHer hardest hue to hold.\nHer early leaf's a flower;\nBut only so an hour."],
+    "list_of_words": ["write","poem","tell","make"],
+    "single_response": 0,
+    "required_words": ["poem"]
+  },
+
+  {
+    "type":"Personal Task",
+    "bot_response": ["Why did the scarecrow win an award?\nBecause he was outstanding in his field!","Why did the bicycle fall over?\nBecause it was two-tired!","Why did the chicken cross the playground?\nTo get to the other slide!"],
+    "list_of_words": ["write","joke","tell","make"],
+    "single_response": 0,
+    "required_words": ["joke"]
+  },
+
+  {
+    "type":"Dificult Task",
+    "bot_response": ["Here is the code: \n<!DOCTYPE html>\n<html>\n<body>\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n</body>\n</html>","Here is the code: \n<!DOCTYPE html>\n<html>\n<body>\n<h1>Blogpotro is the best for students</h1>\n<p>My first blog.</p>\n</body>\n</html>","Here is the code: \n<!DOCTYPE html>\n<html>\n<body>\n<h1>Life is beautiful</h1>\n<p>That's why I can code with a coffee.</p>\n</body>\n</html>"],
+    "list_of_words": ["html","code"],
+    "single_response": 0,
+    "required_words": ["html"]
+  }
+
+]
